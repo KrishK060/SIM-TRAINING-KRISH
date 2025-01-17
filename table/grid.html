@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            /* border:2px solid red; */
+            display:grid;
+            row-gap: 5px;
+            column-gap: 5px;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            background-color: aqua;
+        }
+        .box{
+            border:2px solid green;
+            
+        }
+        #box2{
+            grid-column:2/13
+        }
+        #box3{
+            grid-column: 1/9;
+            grid-row: 2/5;
+        }
+        #box4{
+            grid-column: 9/13;
+        }
+        #box5{
+            grid-column:9/11;
+        }
+
+        #box6{
+            grid-column:11/13;
+        }
+        #box11{
+            grid-column:1/5;
+        }
+        #box12{
+            grid-column:5/7;
+        }
+        #box14{
+            grid-column:8/10;
+        }
+        #box16{
+            grid-column:11/13;
+        }
+        #box18{
+            grid-column:2/6;
+        }
+        #box20{
+            grid-column:7/9;
+        }
+        #box21{
+            grid-column:9/13;
+        }
+        #box23{
+            grid-column:2/4;
+        }
+        #box25{
+            grid-column:5/7;
+        }
+        #box26{
+            grid-column:7/9;
+        }
+        #box29{
+            grid-column:11/13;
+        }
+        #box30{
+            grid-column:1/13;
+        }
+        #box3{
+            display: grid;
+            row-gap: 5px;
+            column-gap: 5px;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            
+        }
+        #box31{
+            grid-column: 1/4;
+            background-color:blue;
+        }
+        #box32{
+            grid-column: 4/9;
+            background-color:blue;
+        }
+        #box33{
+            grid-row: 2/5;
+            grid-column: 1/7;
+            background-color:blue;
+        }
+        #box34{
+            grid-row:2/5;
+            grid-column: 7/9;
+            background-color:blue;
+        }
+        #box33{
+            display: grid;
+            row-gap: 5px;
+            column-gap: 5px;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            
+        }
+        #box35{
+            grid-column:1/3;
+            background-color: blueviolet;
+        }
+        #box36{
+            grid-column:3/5;
+            background-color: blueviolet;
+        }
+        #box37{
+            grid-column:5/7;
+            background-color: blueviolet;
+        }
+        #box38{
+            grid-column:1/5;
+            background-color: blueviolet;
+        }
+        #box39{
+            grid-column:5/7;
+            background-color: blueviolet;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+       
+
+        <div class="box" id="box1">box1</div>
+        <div class="box" id="box2">box2</div>
+        <div class="box" id="box3">
+            <div class="box" id="box31">31</div>
+            <div class="box" id="box32">32</div>
+            <div class="box" id="box33">
+                <div class="box" id="box35">35</div>
+                <div class="box" id="box36">36</div>
+                <div class="box" id="box37">37</div>
+                <div class="box" id="box38">38</div>
+                <div class="box" id="box39">39</div>
+            </div>
+            <div class="box" id="box34">34</div>
+            
+        </div>
+        <div class="box" id="box4">box4</div>
+        <div class="box" id="box5">box5</div>
+        <div class="box" id="box6">box6</div>
+        <div class="box" id="box7">box7</div>
+        <div class="box" id="box8">box8</div>
+        <div class="box" id="box9">box9</div>
+        <div class="box" id="box10">box10</div>
+        <div class="box" id="box11">box11</div>
+        <div class="box" id="box12">box12</div>
+        <div class="box" id="box13">box13</div>
+        <div class="box" id="box14">box14</div>
+        <div class="box" id="box15">box15</div>
+        <div class="box" id="box16">box16</div>
+        <div class="box" id="box17">box17</div>
+        <div class="box" id="box18">box18</div>
+        <div class="box" id="box19">box19</div>
+        <div class="box" id="box20">box20</div>
+        <div class="box" id="box21">box21</div>
+        <div class="box" id="box22">box22</div>
+        <div class="box" id="box23">box23</div>
+        <div class="box" id="box24">box24</div>
+        <div class="box" id="box25">box25</div>
+        <div class="box" id="box26">box26</div>
+        <div class="box" id="box27">box27</div>
+        <div class="box" id="box28">box28</div>
+        <div class="box" id="box29">box29</div>
+        <div class="box" id="box30">box30</div>
+    </div>
+</body>
+</html>
