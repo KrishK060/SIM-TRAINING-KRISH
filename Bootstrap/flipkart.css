@@ -1,0 +1,40 @@
+.parent-head{
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+}
+.input-group{
+    
+}
+.btn{
+    height:40px
+}
+.fa-solid{
+    padding-right:10px;
+}
+body{
+background-color: #f1f1f1;
+}
+/* .navbar{
+    background-color: white;
+} */
+.cart{
+    display:flex;
+    align-items: center;
+    margin-bottom: 8px;
+    padding-right: 15px;
+}
+.customer{
+    display:flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.heading{
+  display:flex;
+  margin-left:15px;
+  margin-top:15px
+    
+}
+.card-text{
+    text-align:center
+}
