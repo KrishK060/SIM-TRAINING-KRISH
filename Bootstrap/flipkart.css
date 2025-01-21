@@ -38,3 +38,17 @@ background-color: #f1f1f1;
 .card-text{
     text-align:center
 }
+.initial-items-list{
+    width: 85vw;
+    display: grid;
+    grid-template-columns: 83% 17%;
+    gap: 10px;
+}
+ 
+.cards-wrapper{
+    display: flex;
+}
+ 
+.card{
+    margin: 0.5rem;
+}
