@@ -8,15 +8,39 @@
 <p id="demo"></p>
 
 <script>
-const numbers = [45, 4, 9, 16, 25];
+// const numbers = [45, 4, 9, 16, 25];
 
-let txt = "";
-numbers.forEach(myFunction);
-document.getElementById("demo").innerHTML = txt;
+// let txt = "";
+// numbers.forEach(myFunction);
+// document.getElementById("demo").innerHTML = txt;
 
-function myFunction(value, index, array) {
-  txt += value + "<br>"; 
+// function myFunction(value, index, array) {
+//   txt += value + "<br>"; 
+// }
+
+// class car{
+//     constructor(name,year){
+//         this.name=name;
+//         this.year=year;
+//     }
+// }
+// const mycar1=new car("a",2);
+// const mycar2=new car("b",2);
+// document.getElementById("demo").innerHTML =
+// mycar1.name + " " + mycar2.name;
+
+class Car {
+  constructor(name) {
+    this.name = name;
+  }
+  static hello(x) {
+    return "Hello " + x.name;
+  }
 }
+
+const myCar = new Car("Ford");
+document.getElementById("demo").innerHTML = Car.hello(myCar);
+
 </script>
 
 </body>
