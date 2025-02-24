@@ -1,0 +1,8 @@
+td.highlight {
+    font-weight: bold;
+    color: blue;
+}
+
+html.dark td.highlight {
+    color: white;
+}

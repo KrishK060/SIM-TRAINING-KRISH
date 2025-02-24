@@ -1,0 +1,7 @@
+/* td.highlight {
+    background-color: rgba(var(--dt-row-hover), 0.052) !important;
+} */
+.highlight td{
+    background-color: rgb(80, 80, 131); /* Light blue background */
+    color: #000; /* Black text */
+}
